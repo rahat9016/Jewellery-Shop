@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Noto Sans JP, sans-serif;
+  font-family: Dosis, sans-serif;
+  background-color: #f8f3e9;
+}
+
+/* Common CSS */
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+a {
+  text-decoration: none;
+  color: rgb(19, 19, 19);
+}
+a:hover {
+  color: rgb(19, 19, 19);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.button {
+  background-color: #3d3d3f;
+  outline: none;
+  border: none;
+  padding: 9px 45px;
+  font-family: Noto Sans JP, sans-serif;
+  border-radius: 4px;
+  color: #fff;
+}
+/* Header Section CSS  */
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.logo {
+  width: 50px;
+}
+.logo-title {
+  font-family: Dosis;
+  font-size: 24px;
+  font-weight: bolder;
+}
+#menu {
+  display: flex;
+}
+#menu li {
+  padding: 12px 20px;
+}
+#menu li a {
+  font-family: Dosis;
+  font-size: 18px;
+  font-weight: bold;
+}
+.cart-img {
+  margin: 0px 10px;
+}
+/* Hero Wrapper */
+.hero-wrapper {
+  display: flex;
+  margin-top: 50px;
+}
+.hero-wrapper > * {
+  flex: 1;
+}
+.hero-left,
+.hero-right {
+  padding: 20px;
+}
+.hero-left-img {
+  width: 70%;
+  display: block;
+  margin-top: 60px;
+}
+.hero-left-head-title {
+  font-size: 85px;
+  font-family: Noto Sans JP;
+  font-weight: 400;
+  margin: 40px 0px;
+}
+.hero-right-paragraph {
+  font-family: Noto Sans JP;
+}
+.hero-right-img {
+  margin-left: 10px;
+  width: 47%;
+}
+.hero-video-box {
+  position: absolute;
+  top: 578px;
+  right: 499px;
+}
+.hero-video-box > i {
+  font-size: 30px;
+  margin-right: 10px;
+  color: #3d3d3f;
+}
+.hero-video-box > h5 {
+  font-weight: bold;
+}
+.social-links {
+  position: absolute;
+  right: 359px;
+  top: 415px;
+}
+.social-links > i {
+  display: block;
+  margin: 10px 0px;
+  font-size: 18px;
+  color: #3d3d3f;
+}
+.chain-wrapper {
+  padding: 80px 0px;
+}
+.chain-wrapper > * {
+  flex: 1;
+}
+.chain-right-title {
+  font-size: 70px;
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.chain-right-paragraph {
+  font-size: 16px;
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 400;
+  margin: 40px 0px;
+}
